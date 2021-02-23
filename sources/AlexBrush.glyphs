@@ -43419,7 +43419,8 @@ e = -35;
 };
 };
 manufacturer = "Robert E. Leuschke";
+manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 5;
 }
