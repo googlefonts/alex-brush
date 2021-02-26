@@ -1,14 +1,14 @@
 {
 .appVersion = "1342";
 DisplayStrings = (
-"náàâäãåñçéèêëíìîïóòôöõúùûü\012abcdefghijklmnopqrstuvwxyz",
+"náàâäãåñçéèêëíìîïóòôöõúùûü\012abcdefghijklmnopqrstuvwxyz\012ABCDEFGHIJ\012KLMNOPQRS\012TUVWXYZ",
 "/dotlessi",
 "/dotlessi/idotaccent/idotbelow/ihookabove/imacron/dotlessi/ihookabove/iogonek/itilde/iogonek/itilde",
 "4",
 AnoHO,
 "Æ"
 );
-copyright = "Copyright (2011 TypeSETit, LLC (typesetit@att.net), with Reserved Font Name \"AlexBrush\"";
+copyright = "Copyright 2011 The Alex Brush Project Authors (https://github.com/googlefonts/alex-brush)";
 customParameters = (
 {
 name = trademark;
@@ -405,13 +405,13 @@ name = liga;
 fontMaster = (
 {
 alignmentZones = (
-"{744, 0}",
-"{416, 0}",
-"{0, -19}",
-"{-242, 0}"
+"{700, 10}",
+"{490, 10}",
+"{320, 10}",
+"{0, -10}"
 );
-ascender = 850;
-capHeight = 744;
+ascender = 825;
+capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
@@ -462,10 +462,16 @@ name = underlineThickness;
 value = 20;
 }
 );
-descender = -400;
+descender = -300;
 guideLines = (
 {
-position = "{443, 322}";
+position = "{443, 320}";
+},
+{
+position = "{596, 490}";
+},
+{
+position = "{35, -195}";
 }
 );
 horizontalStems = (
@@ -482,7 +488,7 @@ verticalStems = (
 );
 weightValue = 400;
 widthValue = 5;
-xHeight = 350;
+xHeight = 320;
 }
 );
 glyphs = (
@@ -16553,7 +16559,7 @@ unicode = 0065;
 },
 {
 glyphname = f;
-lastChange = "2021-02-26 18:10:44 +0000";
+lastChange = "2021-02-26 18:13:56 +0000";
 layers = (
 {
 background = {
@@ -16669,7 +16675,7 @@ nodes = (
 "70 277 OFFCURVE",
 "137 276 CURVE",
 "83 146 LINE SMOOTH",
-"36 39 OFFCURVE",
+"38 38 OFFCURVE",
 "-1 -33 OFFCURVE",
 "-26 -70 CURVE SMOOTH",
 "-73 -140 OFFCURVE",
