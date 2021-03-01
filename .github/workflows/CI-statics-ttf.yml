@@ -1,4 +1,4 @@
-name: Build and Check
+name: CI Static ttf
 
 on: 
   push:
@@ -18,7 +18,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
-    name: Check and Build
+    name: CI Static ttf
     steps:
       - name: Check out source repository
         uses: actions/checkout@v2
@@ -50,5 +50,5 @@ jobs:
       - name: Upload Fonts
         uses: actions/upload-artifact@v2
         with:
-          name: Texturina_Fonts
+          name: AlexBrush_Fonts
           path: fonts/
