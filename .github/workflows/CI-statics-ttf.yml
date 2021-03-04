@@ -45,11 +45,11 @@ jobs:
         with:
           name: AlexBrush_Fonts
           path: fonts/
-      - name: Make Fontbakery Report
-        uses: f-actions/font-bakery@v1
-        with:
-          version: "latest"
-          subcmd: "check-googlefonts"
-          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
-          path: "fonts/variable/*.ttf"
+      # - name: Make Fontbakery Report
+      #   uses: f-actions/font-bakery@v1
+      #   with:
+      #     version: "latest"
+      #     subcmd: "check-googlefonts"
+      #     args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
+      #     path: "fonts/variable/*.ttf"
 
