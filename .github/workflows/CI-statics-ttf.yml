@@ -1,16 +1,16 @@
 name: CI Static ttf
 
-on: 
-  push:
-    branches: 
-    - master
-    paths:
-    - sources/**
-  pull_request:
-    branches: 
-    - master
-    paths:
-    - sources/**
+on: push
+  # push:
+  #   branches: 
+  #   - main
+  #   paths:
+  #   - sources/**
+  # pull_request:
+  #   branches: 
+  #   - main
+  #   paths:
+  #   - sources/**
 
 jobs:
   static-font-ci-job:
@@ -40,6 +40,11 @@ jobs:
       - name: Build fonts
         id: build_fonts
         run: gftools builder sources/config.yaml
+      - name: Upload Fonts
+        uses: actions/upload-artifact@v2
+        with:
+          name: AlexBrush_Fonts
+          path: fonts/
       - name: Make Fontbakery Report
         uses: f-actions/font-bakery@v1
         with:
@@ -47,8 +52,4 @@ jobs:
           subcmd: "check-googlefonts"
           args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
           path: "fonts/variable/*.ttf"
-      - name: Upload Fonts
-        uses: actions/upload-artifact@v2
-        with:
-          name: AlexBrush_Fonts
-          path: fonts/
+

@@ -1,5 +1,10 @@
 {
-.appVersion = "1349";
+.appVersion = "1342";
+DisplayStrings = (
+"/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/acircumflextilde/adotbelow/ahookabove/ecaron/ecircumflexacute/ecircumflexdotbelow/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde",
+"ÀÊËÑÒÓÔ",
+"/dieresiscomb/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/macroncomb/hookabovecomb/commaturnedabovecomb/horncomb/dotbelowcomb/commaaccentcomb/cedillacomb/ogonekcomb/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb"
+);
 copyright = "Copyright 2011 The Alex Brush Project Authors (https://github.com/googlefonts/alex-brush)";
 customParameters = (
 {
@@ -454,9 +459,11 @@ value = 20;
 descender = -300;
 guideLines = (
 {
+name = "lc-bottom";
 position = "{443, 365}";
 },
 {
+name = "lc-top";
 position = "{596, 490}";
 },
 {
@@ -15318,7 +15325,7 @@ unicode = 0060;
 },
 {
 glyphname = a;
-lastChange = "2021-03-03 12:12:26 +0000";
+lastChange = "2021-03-04 02:43:55 +0000";
 layers = (
 {
 anchors = (
@@ -15337,6 +15344,90 @@ position = "{308, 337}";
 );
 background = {
 paths = (
+{
+closed = 1;
+nodes = (
+"474 183 OFFCURVE",
+"477 190 OFFCURVE",
+"477 195 CURVE SMOOTH",
+"477 200 OFFCURVE",
+"475 202 OFFCURVE",
+"472 202 CURVE SMOOTH",
+"470 202 OFFCURVE",
+"468 201 OFFCURVE",
+"466 198 CURVE SMOOTH",
+"374 83 OFFCURVE",
+"311 26 OFFCURVE",
+"276 26 CURVE SMOOTH",
+"264 26 OFFCURVE",
+"257 34 OFFCURVE",
+"254 49 CURVE SMOOTH",
+"250 72 OFFCURVE",
+"270 115 OFFCURVE",
+"313 178 CURVE SMOOTH",
+"356 242 OFFCURVE",
+"378 275 OFFCURVE",
+"377 277 CURVE",
+"376 286 OFFCURVE",
+"362 302 OFFCURVE",
+"346 302 CURVE SMOOTH",
+"341 302 OFFCURVE",
+"337 299 OFFCURVE",
+"332 299 CURVE SMOOTH",
+"329 299 OFFCURVE",
+"325 321 OFFCURVE",
+"316 330 CURVE SMOOTH",
+"308 337 OFFCURVE",
+"296 341 OFFCURVE",
+"280 341 CURVE SMOOTH",
+"224 341 OFFCURVE",
+"160 306 OFFCURVE",
+"89 235 CURVE SMOOTH",
+"18 165 OFFCURVE",
+"-15 104 OFFCURVE",
+"-8 52 CURVE SMOOTH",
+"-4 21 OFFCURVE",
+"35 -5 OFFCURVE",
+"67 -5 CURVE SMOOTH",
+"85 -5 OFFCURVE",
+"114 12 OFFCURVE",
+"154 47 CURVE SMOOTH",
+"216 107 LINE",
+"213 94 OFFCURVE",
+"212 83 OFFCURVE",
+"212 73 CURVE SMOOTH",
+"212 40 OFFCURVE",
+"227 18 OFFCURVE",
+"256 7 CURVE SMOOTH",
+"261 5 OFFCURVE",
+"267 4 OFFCURVE",
+"273 4 CURVE SMOOTH",
+"318 4 OFFCURVE",
+"383 61 OFFCURVE",
+"468 175 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"216 144 LINE",
+"149 59 OFFCURVE",
+"96 17 OFFCURVE",
+"58 17 CURVE SMOOTH",
+"45 17 OFFCURVE",
+"37 25 OFFCURVE",
+"34 41 CURVE SMOOTH",
+"27 84 OFFCURVE",
+"59 139 OFFCURVE",
+"131 206 CURVE SMOOTH",
+"200 271 OFFCURVE",
+"255 304 OFFCURVE",
+"296 304 CURVE SMOOTH",
+"309 304 OFFCURVE",
+"317 299 OFFCURVE",
+"322 290 CURVE"
+);
+},
 {
 closed = 1;
 nodes = (
@@ -26844,7 +26935,7 @@ unicode = 00C0;
 },
 {
 glyphname = Aacute;
-lastChange = "2021-03-03 12:25:29 +0000";
+lastChange = "2021-03-04 02:50:31 +0000";
 layers = (
 {
 background = {
