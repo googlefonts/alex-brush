@@ -1,5 +1,5 @@
 {
-.appVersion = "1356";
+.appVersion = "1342";
 DisplayStrings = (
 "/circumflex/circumflexcomb/circumflexcomb_acutecomb/acircumflexacute",
 "/caron/caroncomb/ccaron",
@@ -10,14 +10,12 @@ DisplayStrings = (
 "/ohornacute",
 "/abrevegrave",
 "O/Ocircumflexgrave",
-"/Ohungarumlaut"
+"/Ohungarumlaut",
+"à/acutecomb áâãäåæçèéêëìíîïðñòóôõö÷øùúûüý",
+V
 );
 copyright = "Copyright 2011 The Alex Brush Project Authors (https://github.com/googlefonts/alex-brush)";
 customParameters = (
-{
-name = trademark;
-value = "AlexBrush is a trademark of Robert E. Leuschke.";
-},
 {
 name = licenseURL;
 value = "https://scripts.sil.org/OFL";
@@ -28,7 +26,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = vendorID;
-value = "TSI ";
+value = GOOG;
 },
 {
 name = panose;
@@ -13168,7 +13166,7 @@ unicode = 0055;
 },
 {
 glyphname = V;
-lastChange = "2021-03-17 05:54:04 +0000";
+lastChange = "2021-03-24 04:07:43 +0000";
 layers = (
 {
 background = {
@@ -13315,7 +13313,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"333 -74 OFFCURVE",
+"336 -71 OFFCURVE",
 "364 -58 OFFCURVE",
 "421 -25 CURVE SMOOTH",
 "437 -16 OFFCURVE",
@@ -13409,7 +13407,7 @@ nodes = (
 "520 590 OFFCURVE",
 "520 497 CURVE SMOOTH",
 "520 476 OFFCURVE",
-"512 443 OFFCURVE",
+"511 443 OFFCURVE",
 "496 398 CURVE SMOOTH",
 "450 263 LINE",
 "428 211 OFFCURVE",
@@ -13419,8 +13417,8 @@ nodes = (
 "327 -38 OFFCURVE",
 "327 -61 CURVE SMOOTH",
 "327 -66 OFFCURVE",
-"328 -69 OFFCURVE",
-"329 -71 CURVE"
+"328 -71 OFFCURVE",
+"332 -71 CURVE SMOOTH"
 );
 }
 );
@@ -35813,8 +35811,9 @@ note = aring;
 unicode = 00E5;
 },
 {
+color = 0;
 glyphname = ae;
-lastChange = "2021-03-02 11:07:44 +0000";
+lastChange = "2021-03-24 04:02:57 +0000";
 layers = (
 {
 background = {
