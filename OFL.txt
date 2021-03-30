@@ -1,8 +1,10 @@
-Copyright 2011 The Alex Brush Project Authors (https://github.com/googlefonts/alex-brush)
+Copyright 2020 The Truculenta Project Authors (https://github.com/Omnibus-Type/Truculenta)
 
------------------------------------------------------------
-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
------------------------------------------------------------
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+https://scripts.sil.org/OFL
+
 
 PREAMBLE
 The goals of the Open Font License (OFL) are to stimulate worldwide
