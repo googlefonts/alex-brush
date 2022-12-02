@@ -2,3 +2,4 @@ fontmake
 fontbakery
 gftools
 brotli
+drawbot-skia>=0.4.8

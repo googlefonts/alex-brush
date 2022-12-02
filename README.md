@@ -1,4 +1,8 @@
+# Alex Brush
+
 Alex Brush is a beautifully flowing brush script. It has short ascenders and descenders allowing a legibility not seen in other script fonts.
+
+![Sample Image](documentation/image1.png)
 
 ## Building the Fonts
 
@@ -9,22 +13,26 @@ To install all the Python tools into a virtualenv, do the following:
 From terminal:
 
 ```
-
 cd your/local/project/directory
+```
 
-#once in the project folder create a virtual environment. 
+Once in the project folder create a virtual environment. 
 This step has to be done just once, the first time:
 
+```
 python3 -m venv venv
+```
 
-#activate the virtual environment
+Activate the virtual environment
 
+```
 source venv/bin/activate
+```
 
-#install the required dependencies
+Install the required dependencies
 
+```
 pip install -r requirements.txt
-
 ```
 
 Then run the this command:
