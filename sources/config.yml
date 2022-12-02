@@ -2,5 +2,5 @@ sources:
   - AlexBrush.glyphs
 familyName: "Alex Brush"
 buildVariable: false
-autohintTTF: false
+# autohintTTF: false
 
