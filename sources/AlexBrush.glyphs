@@ -10,7 +10,7 @@ DisplayStrings = (
 "H/circumflexcomb.case/Hcircumflex",
 "h/hcircumflex",
 "h/hcircumflex/hcircumflex Ln·n/Ldot l/ldot/Ldot",
-"L/periodcentered.loclCAT/Ldot L\012l/periodcentered.loclCAT/ldot l"
+"L/periodcentered.loclCAT/Ldot L\012l/periodcentered.loclCAT/ldot lÆ/acutecomb.case/AEacute"
 );
 classes = (
 {
@@ -2980,9 +2980,15 @@ unicode = 00C3;
 },
 {
 glyphname = AE;
-lastChange = "2021-03-17 05:54:04 +0000";
+lastChange = "2022-12-08 14:46:55 +0000";
 layers = (
 {
+anchors = (
+{
+name = top;
+position = "{1231, 669}";
+}
+);
 background = {
 paths = (
 {
@@ -3485,7 +3491,7 @@ unicode = 00C6;
 {
 color = 9;
 glyphname = AEacute;
-lastChange = "2022-11-05 18:29:22 +0000";
+lastChange = "2022-12-08 14:46:55 +0000";
 layers = (
 {
 components = (
@@ -3494,6 +3500,7 @@ name = AE;
 },
 {
 name = acutecomb.case;
+transform = "{1, 0, 0, 1, 1123, 349}";
 }
 );
 layerId = "2B98CC2F-ACFB-4214-A552-9F7A1112B617";
