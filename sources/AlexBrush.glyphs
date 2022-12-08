@@ -1,5 +1,5 @@
 {
-.appVersion = "3149";
+.appVersion = "1352";
 DisplayStrings = (
 "à/acutecomb áâãäåæçèéêëìíîïðñòóôõö÷øùúûüý",
 "1/Placeholder 1/Placeholder 2/Placeholder 2/Placeholder 3/Placeholder 3/Placeholder 4/Placeholder 45/Placeholder 56/Placeholder 67/Placeholder 78/Placeholder 89/Placeholder 90/Placeholder 0\012///fraction/divisionslash/space ¼½¾",
@@ -182,7 +182,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 961;
+value = 962;
 },
 {
 name = winDescent;
@@ -273,7 +273,7 @@ nodes = (
 width = 499;
 }
 );
-note = ".notdef";
+note = .notdef;
 },
 {
 glyphname = CR;
@@ -65638,5 +65638,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 110;
+versionMinor = 111;
 }
