@@ -6,7 +6,10 @@ DisplayStrings = (
 "æ/aeacute",
 "T/circumflex/circumflexcomb/acutecomb/circumflexcomb_acutecomb/acircumflexacute t/space n/uhorn/ohornacute c/space H/ohorndotbelow p",
 "nn/Placeholder no/Placeholder oo\012H/ohorndotbelow p/space b/uhornacute c/space/dcroat/abrevehookabove ng/space b/abrevegrave ng/space \012.Það/space poþetta/space réttlæ",
-"/ringcomb/Aringacute"
+"/ringcomb/Aringacute",
+"H/circumflexcomb.case/Hcircumflex",
+"h/hcircumflex",
+"h/hcircumflex/hcircumflex L·/Ldot l/ldot/Ldot"
 );
 classes = (
 {
@@ -7640,9 +7643,19 @@ unicode = 0120;
 },
 {
 glyphname = H;
-lastChange = "2021-03-02 11:07:44 +0000";
+lastChange = "2022-12-07 21:49:17 +0000";
 layers = (
 {
+anchors = (
+{
+name = center;
+position = "{476, 350}";
+},
+{
+name = top;
+position = "{888, 700}";
+}
+);
 background = {
 paths = (
 {
@@ -7887,7 +7900,7 @@ nodes = (
 "862 201 OFFCURVE",
 "831 197 CURVE",
 "870 263 LINE SMOOTH",
-"928 360 OFFCURVE",
+"927 360 OFFCURVE",
 "998 456 OFFCURVE",
 "1081 552 CURVE SMOOTH",
 "1159 643 OFFCURVE",
@@ -7906,7 +7919,7 @@ nodes = (
 "1110 650 OFFCURVE",
 "1021 552 CURVE SMOOTH",
 "942 464 OFFCURVE",
-"869 365 OFFCURVE",
+"870 365 OFFCURVE",
 "803 254 CURVE SMOOTH",
 "765 191 LINE",
 "751 190 OFFCURVE",
@@ -7919,7 +7932,7 @@ nodes = (
 "497 207 OFFCURVE",
 "471 208 CURVE",
 "652 486 LINE SMOOTH",
-"677 526 OFFCURVE",
+"678 526 OFFCURVE",
 "689 562 OFFCURVE",
 "689 593 CURVE SMOOTH",
 "689 668 OFFCURVE",
@@ -8072,7 +8085,7 @@ unicode = 0126;
 {
 color = 9;
 glyphname = Hcircumflex;
-lastChange = "2022-11-05 18:29:22 +0000";
+lastChange = "2022-12-07 21:49:10 +0000";
 layers = (
 {
 components = (
@@ -8081,6 +8094,7 @@ name = H;
 },
 {
 name = circumflexcomb.case;
+transform = "{1, 0, 0, 1, 782, 380}";
 }
 );
 layerId = "2B98CC2F-ACFB-4214-A552-9F7A1112B617";
@@ -11621,7 +11635,7 @@ unicode = 0136;
 },
 {
 glyphname = L;
-lastChange = "2021-03-03 12:34:12 +0000";
+lastChange = "2022-12-07 21:52:38 +0000";
 layers = (
 {
 anchors = (
@@ -11631,7 +11645,7 @@ position = "{228, -60}";
 },
 {
 name = center;
-position = "{329, 350}";
+position = "{524, 129}";
 },
 {
 name = top;
@@ -12074,7 +12088,7 @@ unicode = 013B;
 {
 color = 9;
 glyphname = Ldot;
-lastChange = "2022-11-05 18:29:22 +0000";
+lastChange = "2022-12-07 21:52:38 +0000";
 layers = (
 {
 components = (
@@ -12083,6 +12097,7 @@ name = L;
 },
 {
 name = periodcentered;
+transform = "{1, 0, 0, 1, 395, -182}";
 }
 );
 layerId = "2B98CC2F-ACFB-4214-A552-9F7A1112B617";
@@ -28829,9 +28844,19 @@ unicode = 0121;
 },
 {
 glyphname = h;
-lastChange = "2021-03-17 05:54:04 +0000";
+lastChange = "2022-12-07 21:51:03 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{91, 0}";
+},
+{
+name = top;
+position = "{260, 490}";
+}
+);
 background = {
 paths = (
 {
@@ -29232,7 +29257,7 @@ unicode = 0127;
 {
 color = 9;
 glyphname = hcircumflex;
-lastChange = "2022-11-05 18:29:22 +0000";
+lastChange = "2022-12-07 21:50:55 +0000";
 layers = (
 {
 components = (
@@ -29241,6 +29266,7 @@ name = h;
 },
 {
 name = circumflexcomb.case;
+transform = "{1, 0, 0, 1, 154, 170}";
 }
 );
 layerId = "2B98CC2F-ACFB-4214-A552-9F7A1112B617";
@@ -31145,7 +31171,7 @@ unicode = 0138;
 },
 {
 glyphname = l;
-lastChange = "2021-03-17 05:54:04 +0000";
+lastChange = "2022-12-07 21:52:56 +0000";
 layers = (
 {
 anchors = (
@@ -31155,7 +31181,7 @@ position = "{66, 0}";
 },
 {
 name = center;
-position = "{122, 413}";
+position = "{234, 245}";
 },
 {
 name = top;
@@ -31363,7 +31389,7 @@ unicode = 013C;
 {
 color = 9;
 glyphname = ldot;
-lastChange = "2022-11-05 18:29:22 +0000";
+lastChange = "2022-12-07 21:52:56 +0000";
 layers = (
 {
 components = (
@@ -31372,7 +31398,7 @@ name = l;
 },
 {
 name = periodcentered;
-transform = "{1, 0, 0, 1, 99, -71}";
+transform = "{1, 0, 0, 1, 105, -66}";
 }
 );
 layerId = "2B98CC2F-ACFB-4214-A552-9F7A1112B617";
@@ -46946,9 +46972,15 @@ unicode = 00BF;
 },
 {
 glyphname = periodcentered;
-lastChange = "2021-03-02 11:07:44 +0000";
+lastChange = "2022-12-07 21:52:25 +0000";
 layers = (
 {
+anchors = (
+{
+name = _center;
+position = "{129, 311}";
+}
+);
 background = {
 paths = (
 {
@@ -64391,7 +64423,7 @@ width = 221;
 {
 color = 0;
 glyphname = circumflexcomb.case;
-lastChange = "2022-11-18 21:30:10 +0000";
+lastChange = "2022-12-07 21:48:56 +0000";
 layers = (
 {
 anchors = (
