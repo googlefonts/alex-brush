@@ -9,8 +9,8 @@ DisplayStrings = (
 "/ringcomb/Aringacute",
 "H/circumflexcomb.case/Hcircumflex",
 "h/hcircumflex",
-"h/hcircumflex/hcircumflex Ln·n/Ldot l/ldot/Ldot",
-"/circumflexcomb.case Â/Acircumflexdotbelow/Ccircumflex Ê/Ecircumflexdotbelow/Gcircumflex/Hcircumflex/Jcircumflex Ô/Ocircumflexdotbelow/Scircumflex/hcircumflex/circumflexcomb_acutecomb.case/circumflexcomb_gravecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case/circumflexcomb_gravecomb.case/Acircumflexgrave/rinvertedbreve/Rinvertedbreve oó/obreve ô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/odblgrave/dieresiscomb Ö/Odieresismacron Ü/Wdieresis/Ydieresis äëïö/odieresismacron ü/wdieresis/dieresisbelowcomb ö/odieresismacron/dotaccentcomb/odotaccentmacron/odotbelow ò/ohookabove/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde/ohungarumlaut/oinvertedbreve/omacron/oogonek"
+"h/hcircumflex/hcircumflex Ln·n/Ldot l/ldot/Ldot OØ/Oslashacute",
+"uH/circumflexcomb.case ÂA/Acircumflexdotbelow/Ccircumflex Ê/Ecircumflexdotbelow/Gcircumflex/Hcircumflex/Jcircumflex Ô/Ocircumflexdotbelow/Scircumflex/hcircumflex/circumflexcomb_acutecomb.case/circumflexcomb_gravecomb.case/circumflexcomb_hookabovecomb.case/circumflexcomb_tildecomb.case/circumflexcomb_gravecomb.case/Acircumflexgrave/rinvertedbreve/Rinvertedbreve oó/obreve ô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/odblgrave/dieresiscomb Ö/Odieresismacron Ü/Wdieresis/Ydieresis äëïö/odieresismacron ü/wdieresis/dieresisbelowcomb ö/odieresismacron/dotaccentcomb/odotaccentmacron/odotbelow ò/ohookabove/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde/ohungarumlaut/oinvertedbreve/omacron/oogonek"
 );
 classes = (
 {
@@ -7651,10 +7651,14 @@ unicode = 0120;
 },
 {
 glyphname = H;
-lastChange = "2022-12-07 21:49:17 +0000";
+lastChange = "2022-12-08 14:58:22 +0000";
 layers = (
 {
 anchors = (
+{
+name = bottom;
+position = "{534, 0}";
+},
 {
 name = center;
 position = "{476, 350}";
@@ -13875,7 +13879,7 @@ unicode = 00D1;
 },
 {
 glyphname = O;
-lastChange = "2021-03-18 07:24:02 +0000";
+lastChange = "2022-12-08 15:12:12 +0000";
 layers = (
 {
 anchors = (
@@ -15468,9 +15472,15 @@ unicode = 01EA;
 },
 {
 glyphname = Oslash;
-lastChange = "2021-03-17 05:54:04 +0000";
+lastChange = "2022-12-08 15:12:22 +0000";
 layers = (
 {
+anchors = (
+{
+name = top;
+position = "{598, 656}";
+}
+);
 background = {
 paths = (
 {
@@ -15678,7 +15688,7 @@ nodes = (
 "809 394 OFFCURVE",
 "804 411 CURVE",
 "815 432 LINE SMOOTH",
-"826 455 OFFCURVE",
+"827 455 OFFCURVE",
 "832 478 OFFCURVE",
 "832 500 CURVE SMOOTH",
 "832 539 OFFCURVE",
@@ -15786,7 +15796,7 @@ nodes = (
 "746 413 OFFCURVE",
 "751 376 CURVE",
 "728 348 OFFCURVE",
-"693 314 OFFCURVE",
+"694 313 OFFCURVE",
 "646 273 CURVE SMOOTH",
 "590 227 LINE SMOOTH",
 "567 208 OFFCURVE",
@@ -15808,7 +15818,7 @@ nodes = (
 closed = 1;
 nodes = (
 "763 492 OFFCURVE",
-"714 526 OFFCURVE",
+"716 543 OFFCURVE",
 "644 543 CURVE SMOOTH",
 "643 543 LINE",
 "661 565 OFFCURVE",
@@ -15835,7 +15845,7 @@ unicode = 00D8;
 {
 color = 9;
 glyphname = Oslashacute;
-lastChange = "2022-11-05 18:29:22 +0000";
+lastChange = "2022-12-08 15:12:22 +0000";
 layers = (
 {
 components = (
@@ -15844,6 +15854,7 @@ name = Oslash;
 },
 {
 name = acutecomb.case;
+transform = "{1, 0, 0, 1, 490, 336}";
 }
 );
 layerId = "2B98CC2F-ACFB-4214-A552-9F7A1112B617";
@@ -36991,7 +37002,7 @@ unicode = 021B;
 },
 {
 glyphname = u;
-lastChange = "2022-12-02 14:17:03 +0000";
+lastChange = "2022-12-08 14:58:31 +0000";
 layers = (
 {
 anchors = (
